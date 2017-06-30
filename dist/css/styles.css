@@ -1,3 +1,25 @@
+html, body {
+    min-height: 100%;
+    height: 100%;
+}
+@media (min-height: 800px) {
+    #wrapper{
+        overflow: hidden;
+    }
+}
+#wrapper{
+    height: 100%;
+}
+/*body{*/
+/*overflow: hidden;*/
+/*}*/
+
+#page-wrapper {
+    position: relative;
+    min-height: 100%;!important;
+
+}
+
 .btn-bul {
     background-color: #00a1e5;
     color: #fff;
@@ -55,8 +77,66 @@ input, button, select, textarea {
     color: #7a8897;
 }
 
+.navRight > .icon-e {
+    font-size: 2rem;
+}
+
 .navRight > li > a {
     display: inline-block;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+.sidebar ul li a.active {
+    color: #fff;
+    background: #23272b;
+}
+
+.sidebar ul li a:hover {
+    background: #1e2327;
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #393940;
+    background: #292d30;
+}
+
+.sidebar ul img {
+    padding: 14px;
+    background: #181e24;
+    width: 100%;
+    border-bottom: 1px solid #393940;
+}
+
+.input-span {
+    min-width: 100px;
+    text-align: left;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0px;
+    background: #f3f3f3;
+    border: none;
+}
+
+.input-ren .input-group {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.sidebar {
+    margin-top: 0px;
+}
+
+#wrapper {
+    background: #292d30;
 }
 
 #user {
@@ -93,10 +173,6 @@ span.icon-bac i {
     background-repeat: no-repeat;
     border-radius: 50%;
     top: 10px;
-}
-
-.out-icon {
-    font-size: 18px;
 }
 
 .nav a i {
@@ -259,18 +335,6 @@ th {
     margin-right: 4px;
 }
 
-.moneyD {
-    background-image: url("../img/monIcon.png");
-}
-
-.detailedIcon {
-    background-image: url("../img/detailed.png");
-}
-
-.OilStationIcon {
-    background-image: url("../img/ols.png");
-}
-
 .userTrIcon {
     background-image: url("../img/userTr.png");
 }
@@ -321,10 +385,6 @@ th {
 
 .carBox {
     margin-bottom: 2em;
-}
-
-.keyIndexIcon {
-    background-image: url("../img/keyIndex.png");
 }
 
 .keyIndex {
